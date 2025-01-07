@@ -17,7 +17,7 @@ const HeroOriginal = () => {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <StoreButton store="apple" href="https://apps.apple.com/app/id123" />
-          <StoreButton store="google" href="https://play.google.com/store/apps/details?id=com.easy" />
+          <StoreButton store="google" href="https://play.google.com/store/apps/details?id=com.asprodigital" />
         </div>
 
         <button

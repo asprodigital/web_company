@@ -14,7 +14,7 @@ const Contact = () => {
                 we'd love to hear from you.
               </p>
               <div className="space-y-2">
-                <p>Email: hello@easy.studio</p>
+                <p>Email: hello@asprodigital.com</p>
                 <p>Tel: +1 (555) 123-4567</p>
                 <p>Location: New York, NY</p>
               </div>

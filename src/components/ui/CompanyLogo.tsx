@@ -25,9 +25,9 @@ const CompanyLogo = () => {
             </svg>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-light tracking-wider">EASY</div>
+            <div className="text-3xl font-light tracking-wider">ASPRO</div>
             <div className="bg-gray-800 text-white px-4 py-1 text-sm tracking-wider mt-2">
-              STUDIO
+              DIGITAL
             </div>
           </div>
         </div>

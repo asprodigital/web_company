@@ -24,17 +24,17 @@ const CompanyInfo = () => {
               <SocialLink 
                 icon={<Youtube size={20} />}
                 label="Youtube Channel"
-                href="https://youtube.com/@easy"
+                href="https://youtube.com/@asprodigital"
               />
               <SocialLink 
                 icon={<Facebook size={20} />}
                 label="Facebook Page"
-                href="https://facebook.com/easy"
+                href="https://facebook.com/asprodigital"
               />
               <SocialLink 
                 icon={<Mail size={20} />}
-                label="my.easystudio@gmail.com"
-                href="mailto:my.easystudio@gmail.com"
+                label="asprodigital.my@gmail.com"
+                href="mailto:asprodigital.my@gmail.com"
               />
             </div>
           </div>
