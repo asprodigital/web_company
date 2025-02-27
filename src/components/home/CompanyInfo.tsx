@@ -33,8 +33,8 @@ const CompanyInfo = () => {
               /> */}
               <SocialLink 
                 icon={<Mail size={20} />}
-                label="hello@asprodigital.com"
-                href="mailto:hello@asprodigital.com"
+                label="admin@asprodigital.com"
+                href="mailto:admin@asprodigital.com"
               />
             </div>
           </div>
