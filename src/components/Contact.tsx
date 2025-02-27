@@ -12,7 +12,7 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Mail className="w-5 h-5 mr-3" />
-                <span>hello@asprodigital</span>
+                <span>admin@asprodigital</span>
               </div>
               <div className="flex items-center">
                 <Phone className="w-5 h-5 mr-3" />
