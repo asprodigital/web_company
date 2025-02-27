@@ -6,27 +6,25 @@ const About = () => {
       <div className="max-w-[1800px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
           <div>
-            <h2 className="text-3xl md:text-4xl font-light mb-8">About Our Studio</h2>
+            <h2 className="text-3xl md:text-4xl font-light mb-8">About Our Company</h2>
             <div className="space-y-6 text-lg">
               <p>
-              ASPRO DIGITAL is a creative design practice focused on creating meaningful spaces 
-                through innovative design solutions. We believe in the power of thoughtful design 
-                to transform spaces and enhance the way people live and work.
+ASPRO DIGITAL ENTERPRISE, also known as ASPRO DIGITAL, is an innovative technology company dedicated to developing impactful mobile applications that enhance the lives of people everywhere. 
+As a small yet dynamic team, we focus on creating solutions that provide real, tangible benefits to users.
               </p>
               <p>
-                Our approach combines aesthetic excellence with functional design, creating 
-                environments that are both beautiful and purposeful. Each project is an opportunity 
-                to craft unique solutions that reflect our clients' vision and aspirations.
+              At ASPRO DIGITAL, we believe in the power of technology to transform how people interact with the world. 
+              Our approach blends creativity with functionality, ensuring that each app we build is not only user-friendly but also purposeful and meaningful.
               </p>
             </div>
           </div>
-          <div className="relative">
+          {/* <div className="relative">
             <img
               src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80"
               alt="Studio space"
               className="w-full h-full object-cover"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

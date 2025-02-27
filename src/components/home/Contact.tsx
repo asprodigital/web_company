@@ -15,8 +15,7 @@ const Contact = () => {
               </p>
               <div className="space-y-2">
                 <p>Email: hello@asprodigital.com</p>
-                <p>Tel: +1 (555) 123-4567</p>
-                <p>Location: New York, NY</p>
+                <p>Tel: +6011-650 25350</p>
               </div>
             </div>
           </div>

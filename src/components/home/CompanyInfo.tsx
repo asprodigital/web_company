@@ -14,10 +14,10 @@ const CompanyInfo = () => {
           
           <div className="text-center lg:text-left">
             <h2 className="text-4xl md:text-5xl font-light mb-3">ASPRO DIGITAL</h2>
-            <p className="text-gray-500 text-lg mb-8">the creative design</p>
+            <p className="text-gray-500 text-lg mb-8">Innovative Solutions Development</p>
             
             <p className="text-gray-600 text-lg mb-12">
-            ASPRO DIGITAL is a Malaysian company focused on developing Mobile Educational Games.
+            ASPRO DIGITAL is a Malaysian company focused on developing mobile applications that offer educational and practical solution.
             </p>
             
             <div className="space-y-4">
