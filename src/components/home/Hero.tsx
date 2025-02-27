@@ -28,7 +28,7 @@ const Hero = () => {
           
 
           <a 
-            href="https://play.google.com/store/apps/details?id=com.asprodigital" 
+            href="https://play.google.com/store/apps/developer?id=ASPRO+DIGITAL+ENTERPRISE&hl=en" 
             className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-8 py-4 hover:bg-white/20 transition-colors flex items-center space-x-4"
           >
             <span className="text-2xl">▶</span>
@@ -53,10 +53,10 @@ const Hero = () => {
         <div className="text-gray-300">
           Any enqueries can contact us at{' '}
           <a 
-            href="mailto:support@asprodigital.my@gmail.com" 
+            href="mailto:support@asprodigital.com" 
             className="text-white hover:underline"
           >
-            support@asprodigital.my@gmail.com
+            support@asprodigital.com
           </a>
         </div>
       </div>
