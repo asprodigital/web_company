@@ -53,10 +53,10 @@ const Hero = () => {
         <div className="text-gray-300">
           Any enqueries can contact us at{' '}
           <a 
-            href="mailto:asprodigital.my@gmail.com" 
+            href="mailto:support@asprodigital.my@gmail.com" 
             className="text-white hover:underline"
           >
-            asprodigital.my@gmail.com
+            support@asprodigital.my@gmail.com
           </a>
         </div>
       </div>

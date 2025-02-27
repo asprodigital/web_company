@@ -16,11 +16,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center">
                 <Phone className="w-5 h-5 mr-3" />
-                <span>+1 (555) 123-4567</span>
-              </div>
-              <div className="flex items-center">
-                <MapPin className="w-5 h-5 mr-3" />
-                <span>123 Design Street, Creative City</span>
+                <span>+6 (011) 650-25350</span>
               </div>
             </div>
           </div>

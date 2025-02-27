@@ -26,15 +26,15 @@ const CompanyInfo = () => {
                 label="Youtube Channel"
                 href="https://youtube.com/@asprodigital"
               />
-              <SocialLink 
+              {/* <SocialLink 
                 icon={<Facebook size={20} />}
                 label="Facebook Page"
                 href="https://facebook.com/asprodigital"
-              />
+              /> */}
               <SocialLink 
                 icon={<Mail size={20} />}
-                label="asprodigital.my@gmail.com"
-                href="mailto:asprodigital.my@gmail.com"
+                label="hello@asprodigital.my@gmail.com"
+                href="mailto:hello@asprodigital.my@gmail.com"
               />
             </div>
           </div>
