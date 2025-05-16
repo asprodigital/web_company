@@ -83,7 +83,7 @@ const WorkCard = ({ title, description, images, appStoreLink, playStoreLink, isA
           <h3 className="text-xl font-medium mb-2">{title}</h3>
           <p className="text-gray-600 mb-6">{description}</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <StoreButton store="apple" href={appStoreLink} />
+            {appStoreLink && <StoreButton store="apple" href={appStoreLink} />}
             <StoreButton store="google" href={playStoreLink} />
           </div>
         </div>
