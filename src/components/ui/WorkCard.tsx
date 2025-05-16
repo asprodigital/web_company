@@ -32,11 +32,11 @@ const WorkCard = ({ title, description, images, appStoreLink, playStoreLink, isA
     <div className={`transition-all duration-500 ${isActive ? 'opacity-100 scale-100' : 'opacity-40 scale-95 blur-sm'}`}>
       <div className="max-w-md mx-auto bg-white rounded-2xl overflow-hidden">
         {/* Image Gallery */}
-        <div className="relative bg-gray-100 min-h-[400px] flex items-center justify-center">
+        <div className="relative aspect-square">
           <img 
             src={images[currentImageIndex]} 
             alt={`${title} - Image ${currentImageIndex + 1}`} 
-            className="max-w-full max-h-[400px] object-contain p-4"
+            className="w-full h-full object-contain bg-gray-50"
           />
           
           {/* Image Navigation Buttons */}
@@ -68,8 +68,8 @@ const WorkCard = ({ title, description, images, appStoreLink, playStoreLink, isA
                     }}
                     className={`w-2 h-2 rounded-full transition-all ${
                       index === currentImageIndex 
-                        ? 'bg-black w-4' 
-                        : 'bg-gray-400 hover:bg-gray-500'
+                        ? 'bg-white w-4' 
+                        : 'bg-white/50 hover:bg-white/80'
                     }`}
                     aria-label={`Go to image ${index + 1}`}
                   />
@@ -83,8 +83,8 @@ const WorkCard = ({ title, description, images, appStoreLink, playStoreLink, isA
           <h3 className="text-xl font-medium mb-2">{title}</h3>
           <p className="text-gray-600 mb-6">{description}</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            {appStoreLink && <StoreButton store="apple" href={appStoreLink} />}
-            {playStoreLink && <StoreButton store="google" href={playStoreLink} />}
+            <StoreButton store="apple" href={appStoreLink} />
+            <StoreButton store="google" href={playStoreLink} />
           </div>
         </div>
       </div>
