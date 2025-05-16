@@ -7,7 +7,7 @@ export const works = [
       "/images/ekhutbah/splash.jpeg",
       "/images/ekhutbah/khutbah.jpeg",
       "/images/ekhutbah/category.jpeg",
-      "/images/ekhutbah/audio.jpeg",
+      "/images/ekhutbah/audios.jpeg",
       "/images/ekhutbah/videos.jpeg",
       "/images/ekhutbah/sunnah.jpeg",
       "/images/ekhutbah/more.jpeg"
